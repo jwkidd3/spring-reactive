@@ -14,7 +14,7 @@ import org.springframework.data.couchbase.core.mapping.id.GeneratedValue;
 import org.springframework.data.couchbase.core.mapping.id.GenerationStrategy;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 @Data
 @ToString

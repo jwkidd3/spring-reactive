@@ -20,7 +20,7 @@ import java.time.LocalDateTime;
 import java.util.UUID;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 @RequiredArgsConstructor
 public class MessagetHandler implements WebSocketHandler {

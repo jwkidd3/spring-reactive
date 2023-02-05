@@ -12,7 +12,7 @@ import org.springframework.data.mongodb.gridfs.ReactiveGridFsTemplate;
 import org.springframework.data.mongodb.repository.config.EnableReactiveMongoRepositories;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 @Configuration
 @EnableReactiveMongoRepositories

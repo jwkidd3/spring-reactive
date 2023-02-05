@@ -17,7 +17,7 @@ import reactor.netty.http.server.HttpServer;
 import java.time.Duration;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 @SpringJUnitConfig(classes = Application.class)
 public class IntegrationTests {

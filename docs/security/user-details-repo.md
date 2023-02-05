@@ -27,7 +27,7 @@ admin=password,ROLE_USER,ROLE_ADMIN
 
 The key is username, the value is password, and it's roles.
 
-Source codes: [spring-reactive-sample/security-user-properties]( https://github.com/hantsy/spring-reactive-sample/tree/master/security-user-properties)
+Source codes: [spring-reactive/security-user-properties]( https://github.com/jwkidd3/spring-reactive/tree/master/security-user-properties)
 
 ## Customize UserDetailsRepository
 
@@ -103,4 +103,4 @@ public UserDetailsRepository userDetailsRepository(UserRepository users) {
 }
 ```
 
-Source codes: [spring-reactive-sample/security-data-mongo](https://github.com/hantsy/spring-reactive-sample/tree/master/security-data-mongo).
+Source codes: [spring-reactive/security-data-mongo](https://github.com/jwkidd3/spring-reactive/tree/master/security-data-mongo).

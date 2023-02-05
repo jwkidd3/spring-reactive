@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-vanilla-undertow</artifactId>
+    <artifactId>spring-reactive-vanilla-undertow</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-reactive-sample-vanilla-undertow</name>
+    <name>spring-reactive-vanilla-undertow</name>
     <description>Spring Webflux Undertow demo(without Spring Boot)</description>
 
     <parent>

@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-boot-data-couchbase</artifactId>
+    <artifactId>spring-reactive-boot-data-couchbase</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-reactive-sample-boot-data-couchbase</name>
+    <name>spring-reactive-boot-data-couchbase</name>
     <description>Spring Data Couchbase Reactive Sample</description>
 
     <parent>

@@ -21,7 +21,7 @@ import org.springframework.data.r2dbc.repository.config.EnableR2dbcRepositories;
 import org.springframework.transaction.ReactiveTransactionManager;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 
 @Configuration

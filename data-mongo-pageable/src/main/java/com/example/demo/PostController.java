@@ -16,7 +16,7 @@ import java.util.Collections;
 import java.util.Map;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 @RestController()
 @RequestMapping(value = "/posts")

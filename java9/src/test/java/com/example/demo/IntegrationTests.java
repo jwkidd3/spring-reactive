@@ -19,7 +19,7 @@ import reactor.netty.http.server.HttpServer;
 
 /**
  *
- * @author hantsy
+ * @author jwkidd3
  */
 @SpringJUnitConfig(Application.class)
 public class IntegrationTests {

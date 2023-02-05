@@ -65,7 +65,7 @@ WebSocketHandlerAdapter webSocketHandlerAdapter(){
 }
 ```
 
-Source codes:  [spring-reactive-sample/websocket](https://github.com/hantsy/spring-reactive-sample/blob/master/websocket).
+Source codes:  [spring-reactive/websocket](https://github.com/jwkidd3/spring-reactive/blob/master/websocket).
 
 ## Client Side
 
@@ -100,6 +100,6 @@ client.execute(new URI("ws://localhost:8080/echo"),
 }
 ```
 
-Source codes: [spring-reactive-sample/client](https://github.com/hantsy/spring-reactive-sample/blob/master/client).
+Source codes: [spring-reactive/client](https://github.com/jwkidd3/spring-reactive/blob/master/client).
 
-A more close to the real world example application, go to [hantsy/angular-spring-websocket-sample/](https://github.com/hantsy/angular-spring-websocket-sample/).
+A more close to the real world example application, go to [jwkidd3/angular-spring-websocket-sample/](https://github.com/jwkidd3/angular-spring-websocket-sample/).

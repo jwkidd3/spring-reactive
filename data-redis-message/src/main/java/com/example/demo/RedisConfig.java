@@ -22,7 +22,7 @@ import java.io.IOException;
 import java.util.UUID;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 @Configuration
 @Slf4j

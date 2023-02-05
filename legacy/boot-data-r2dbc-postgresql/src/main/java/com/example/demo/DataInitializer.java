@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
 import static org.springframework.data.domain.Sort.Order.desc;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 @Component
 @Slf4j

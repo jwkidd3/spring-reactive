@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-kotlin-routes</artifactId>
+    <artifactId>spring-reactive-kotlin-routes</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-reactive-sample-kotlin-routes</name>
+    <name>spring-reactive-kotlin-routes</name>
     <description>Spring Boot(with Kotlin)</description>
 
     <parent>

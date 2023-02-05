@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.session.data.mongo.config.annotation.web.reactive.EnableMongoWebSession;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 @Configuration
 @EnableMongoWebSession

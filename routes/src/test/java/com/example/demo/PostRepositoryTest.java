@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
  *
- * @author hantsy
+ * @author jwkidd3
  */
 public class PostRepositoryTest {
 

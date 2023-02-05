@@ -15,7 +15,7 @@ import org.springframework.data.redis.core.RedisHash;
 
 /**
  *
- * @author hantsy
+ * @author jwkidd3
  */
 @Data
 @ToString

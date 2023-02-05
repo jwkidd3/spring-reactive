@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-client</artifactId>
+    <artifactId>spring-reactive-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-reactive-sample-client</name>
+    <name>spring-reactive-client</name>
     <description>Spring Webflux demo(WebClient)</description>
 
     <parent>

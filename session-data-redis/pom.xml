@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-session-data-redis</artifactId>
+    <artifactId>spring-reactive-session-data-redis</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-reactive-sample-session-data-redis</name>
+    <name>spring-reactive-session-data-redis</name>
     <description>Spring Webflux with Spring Session Data Redis</description>
 
     <parent>

@@ -6,7 +6,7 @@ sort: 2
 
 An example exceeds thousands of words. Let's begin to write some codes and enjoy the reactive programming brought by Spring 5.
 
-As an example, I will reuse the same concept in my former [Spring Boot sample codes](https://github.com/hantsy/angularjs-springmvc-sample-boot) which is a simple blog application. 
+As an example, I will reuse the same concept in my former [Spring Boot sample codes](https://github.com/jwkidd3/angularjs-springmvc-sample-boot) which is a simple blog application. 
 
 > In this post, we prepare the codes manually and do not use Spring Boot autoconfiguration. I think it will help you to understand the essential configuration in a Spring WebFlux application.
 
@@ -65,11 +65,11 @@ The final pom.xml looks like:
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-vanilla</artifactId>
+    <artifactId>spring-reactive-vanilla</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-reactive-sample-vanilla</name>
+    <name>spring-reactive-vanilla</name>
     <description>Spring Webflux demo(without Spring Boot)</description>
 
     <parent>
@@ -375,14 +375,14 @@ mvn package
 When it is done, switch to the *target* folder, besides the general jar, you will find an extra fat jar was generated, which filename is ended with **jar-with-dependencies.jar**.
 
 ```
-spring-reactive-sample-vanilla-0.0.1-SNAPSHOT-jar-with-dependencies.jar
-spring-reactive-sample-vanilla-0.0.1-SNAPSHOT.jar
+spring-reactive-vanilla-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+spring-reactive-vanilla-0.0.1-SNAPSHOT.jar
 ```
 
 Run the following command to run this application. 
 
 ```
-java -jar target/spring-reactive-sample-vanilla-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+java -jar target/spring-reactive-vanilla-0.0.1-SNAPSHOT-jar-with-dependencies.jar
 ```
 
 When it is started, let's try to verify if it works.
@@ -392,7 +392,7 @@ When it is started, let's try to verify if it works.
 [{"id":1,"title":"First Post","content":"content of First Post"},{"id":2,"title":"Second Post","content":"content of Second Post"}]
 ```
 
-For the complete codes, check [spring-reactive-sample/vanilla-tomcat](https://github.com/hantsy/spring-reactive-sample/tree/master/vanilla-tomcat).
+For the complete codes, check [spring-reactive/vanilla-tomcat](https://github.com/jwkidd3/spring-reactive/tree/master/vanilla-tomcat).
 
 ### Eclipse Jetty
 
@@ -453,7 +453,7 @@ Replace `tomcat-embed-core` with the following jetty related dependencies.
 ```
 Similarly, you can run the application directly in your IDEs.
 
-For the complete codes, check [spring-reactive-sample/vanilla-jetty](https://github.com/hantsy/spring-reactive-sample/tree/master/vanilla-jetty).
+For the complete codes, check [spring-reactive/vanilla-jetty](https://github.com/jwkidd3/spring-reactive/tree/master/vanilla-jetty).
 
 Alternatively, you can run the application in Reactor Netty, or JBoss Undertow.
 
@@ -500,7 +500,7 @@ And add `reactor-netty` in your project dependencies.
 </dependency>
 ```
 
-For the complete codes, check [spring-reactive-sample/vanilla](https://github.com/hantsy/spring-reactive-sample/tree/master/vanilla).
+For the complete codes, check [spring-reactive/vanilla](https://github.com/jwkidd3/spring-reactive/tree/master/vanilla).
 
 ### Undertow
 
@@ -549,7 +549,7 @@ And add `undertow-core` in your project dependencies.
 </dependency>
 ```
 
-Check the sample codes: [spring-reactive-sample/vanilla-undertow](https://github.com/hantsy/spring-reactive-sample/tree/master/vanilla-undertow).
+Check the sample codes: [spring-reactive/vanilla-undertow](https://github.com/jwkidd3/spring-reactive/tree/master/vanilla-undertow).
 
 ### Standalone Servlet Container
 
@@ -570,7 +570,7 @@ public class AppInitializer extends AbstractReactiveWebInitializer {
 }
 ```
 
->  The former  `AbstractAnnotationConfigDispatcherHandlerInitializer` is problematic, check notes I added in the sample codes [spring-reactive-sample/war](https://github.com/hantsy/spring-reactive-sample/blob/master/war/src/main/java/com/example/demo/AppInitializer.java)
+>  The former  `AbstractAnnotationConfigDispatcherHandlerInitializer` is problematic, check notes I added in the sample codes [spring-reactive/war](https://github.com/jwkidd3/spring-reactive/blob/master/war/src/main/java/com/example/demo/AppInitializer.java)
 
 Next change the project packaging from **jar** to **war** in pom.xml.
 
@@ -627,7 +627,7 @@ Run the following command to package and deploy it into an embedded tomcat contr
 mvn verify cargo:run
 ```
 
-Check the sample codes: [spring-reactive-sample/war](https://github.com/hantsy/spring-reactive-sample/blob/master/war).
+Check the sample codes: [spring-reactive/war](https://github.com/jwkidd3/spring-reactive/blob/master/war).
 
 ### Alternative Bean Registration
 
@@ -661,4 +661,4 @@ public class Application {
 }
 ```
 
-For the complete codes, check  [spring-reactive-sample/register-bean](https://github.com/hantsy/spring-reactive-sample/blob/master/register-bean).
+For the complete codes, check  [spring-reactive/register-bean](https://github.com/jwkidd3/spring-reactive/blob/master/register-bean).

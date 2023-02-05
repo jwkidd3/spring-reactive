@@ -15,7 +15,7 @@ import rx.Observable;
 import rx.Single;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 @Component
 class RxJavaPostRepository {

@@ -312,7 +312,7 @@ public class PostRepositoryTest {
 ```
 But you have to run a Neo4j server to serve this test, currently SDN Rx does not provide an embedded Neo4j for test scope.
 
-Get the complete codes, [spring-reactive-sample/boot-data-neo4j-rx](https://github.com/hantsy/spring-reactive-sample/tree/master/boot-data-neo4j-rx).
+Get the complete codes, [spring-reactive/boot-data-neo4j-rx](https://github.com/jwkidd3/spring-reactive/tree/master/boot-data-neo4j-rx).
 
 
 ## ReactiveNeo4jOperations
@@ -364,7 +364,7 @@ class PostRepository {
 }
 ```
 
-For the complete codes, check [spring-reactive-sample/boot-neo4j-rx](https://github.com/hantsy/spring-reactive-sample/blob/master/boot-neo4j-rx).
+For the complete codes, check [spring-reactive/boot-neo4j-rx](https://github.com/jwkidd3/spring-reactive/blob/master/boot-neo4j-rx).
 
 ## ReactiveNeo4jClient
 
@@ -475,5 +475,5 @@ class PostRepository {
 }
 ```
 
-For the complete codes, check [spring-reactive-sample/boot-neo4j-rx-cypher](https://github.com/hantsy/spring-reactive-sample/blob/master/boot-neo4j-rx-cypher).
+For the complete codes, check [spring-reactive/boot-neo4j-rx-cypher](https://github.com/jwkidd3/spring-reactive/blob/master/boot-neo4j-rx-cypher).
 

@@ -10,7 +10,7 @@ import org.springframework.session.data.redis.config.annotation.web.server.Enabl
 
 /**
  *
- * @author hantsy
+ * @author jwkidd3
  */
 @Configuration
 @EnableRedisWebSession

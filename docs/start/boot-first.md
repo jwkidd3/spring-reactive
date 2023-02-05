@@ -79,7 +79,7 @@ Restart the application, and test the endpoints.
 ...
 ```
 
-Check the complete codes, [spring-reactive-sample/boot](https://github.com/hantsy/spring-reactive-sample/tree/master/boot-start).
+Check the complete codes, [spring-reactive/boot](https://github.com/jwkidd3/spring-reactive/tree/master/boot-start).
 
 ## Bootstrap
 
@@ -109,7 +109,7 @@ If you want to use Apache Tomcat as target runtime environment, just exclude `sp
 </dependency>
 ```
 
-Check the sample codes, [spring-reactive-sample/boot-tomcat](https://github.com/hantsy/spring-reactive-sample/tree/master/boot-tomcat).
+Check the sample codes, [spring-reactive/boot-tomcat](https://github.com/jwkidd3/spring-reactive/tree/master/boot-tomcat).
 
 ### Eclipse Jetty 
 
@@ -133,7 +133,7 @@ To use Jetty to replace the default Reactor Netty.
 </dependency>
 ```
 
-Check the sample codes, [spring-reactive-sample/boot-jetty](https://github.com/hantsy/spring-reactive-sample/tree/master/boot-jetty).
+Check the sample codes, [spring-reactive/boot-jetty](https://github.com/jwkidd3/spring-reactive/tree/master/boot-jetty).
 
 ### Undertow
 
@@ -157,4 +157,4 @@ Similiarly, you can use Undertow as target runtime.
 </dependency>
 ```
 
-Check the sample codes, [spring-reactive-sample/boot-undertow](https://github.com/hantsy/spring-reactive-sample/tree/master/boot-undertow).
+Check the sample codes, [spring-reactive/boot-undertow](https://github.com/jwkidd3/spring-reactive/tree/master/boot-undertow).

@@ -28,7 +28,7 @@ import java.util.concurrent.TimeUnit;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 @SpringJUnitConfig(classes = PostRepositoryTest.TestConfig.class)
 @ActiveProfiles("test")

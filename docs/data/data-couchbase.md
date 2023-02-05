@@ -125,7 +125,7 @@ Create `PostRepository` interface.
 interface PostRepository extends ReactiveCouchbaseRepository<Post, String>{}
 ```
 
-For the complete codes, check [spring-reactive-sample/data-couchbase](https://github.com/hantsy/spring-reactive-sample/blob/master/data-couchbase).
+For the complete codes, check [spring-reactive/data-couchbase](https://github.com/jwkidd3/spring-reactive/blob/master/data-couchbase).
 
 Alternatively, for Spring Boot applications, just need to add `spring-boot-starter-data-couchbase-reactive` into your project dependencies.
 
@@ -138,7 +138,7 @@ Alternatively, for Spring Boot applications, just need to add `spring-boot-start
 
 No need extra configuration, Spring Boot will auto-configure couchbase and registers all essential beans for you.
 
-For the complete codes, check [spring-reactive-sample/boot-data-couchbase](https://github.com/hantsy/spring-reactive-sample/blob/master/boot-data-couchbase).
+For the complete codes, check [spring-reactive/boot-data-couchbase](https://github.com/jwkidd3/spring-reactive/blob/master/boot-data-couchbase).
 
 Add some sample data via a `CommandLineRunner` bean or a `ApplicationRunner` bean.
 

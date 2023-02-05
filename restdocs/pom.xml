@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-restdocs</artifactId>
+    <artifactId>spring-reactive-restdocs</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-reactive-sample-restdocs</name>
+    <name>spring-reactive-restdocs</name>
     <description>Spring RestDocs with Webflux </description>
 
     <parent>

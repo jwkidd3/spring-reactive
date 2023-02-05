@@ -16,7 +16,7 @@ import reactor.core.publisher.Mono;
 import reactor.core.publisher.Sinks;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 @Component
 class PostRepository {

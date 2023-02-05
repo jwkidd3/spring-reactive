@@ -87,7 +87,7 @@ class PostRepositoryTest {
                 .consumeNextWith(user -> {
                     assertThat(user.getTitle()).isEqualTo("Post one");
                     //verify data auditing
-                    assertThat(user.getCreatedBy()).isEqualTo("hantsy");
+                    assertThat(user.getCreatedBy()).isEqualTo("jwkidd3");
                     assertThat(user.getCreatedAt()).isNotNull();
                 })
                 .consumeNextWith(user -> assertThat(user.getTitle()).isEqualTo("Post two"))

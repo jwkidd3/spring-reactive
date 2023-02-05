@@ -15,7 +15,7 @@ import org.springframework.data.mongodb.repository.config.EnableReactiveMongoRep
 
 /**
  *
- * @author hantsy
+ * @author jwkidd3
  */
 @Configuration
 @EnableReactiveMongoRepositories(basePackageClasses = [MongoConfig::class])

@@ -21,7 +21,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 /**
  *
- * @author hantsy
+ * @author jwkidd3
  */
 @Data
 @ToString

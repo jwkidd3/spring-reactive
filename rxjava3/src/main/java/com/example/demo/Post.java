@@ -15,7 +15,7 @@ import java.util.UUID;
 
 /**
  *
- * @author hantsy
+ * @author jwkidd3
  */
 @Data
 @ToString

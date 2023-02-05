@@ -19,7 +19,7 @@ import org.springframework.messaging.MessageChannel;
 import org.springframework.web.reactive.function.client.WebClient;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 @Configuration
 @EnableIntegration

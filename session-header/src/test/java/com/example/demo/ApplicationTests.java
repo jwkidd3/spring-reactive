@@ -27,7 +27,7 @@ import java.util.Map;
 import static org.assertj.core.api.Assertions.assertThat;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 @SpringJUnitConfig(classes = Application.class)
 @TestPropertySource(properties = "server.session.timeout:1")

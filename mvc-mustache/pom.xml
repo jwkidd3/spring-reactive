@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-mvc-mustache</artifactId>
+    <artifactId>spring-reactive-mvc-mustache</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-reactive-sample-mvc-mustache</name>
+    <name>spring-reactive-mvc-mustache</name>
     <description>Spring Webflux MVC Mustache demo(without Spring Boot)</description>
 
     <parent>

@@ -78,7 +78,7 @@ class PostController {
 }
 ```
 
-For the complete codes, check [spring-reactive-sample/rxjava2](https://github.com/hantsy/spring-reactive-sample/blob/master/rxjava2) and [spring-reactive-sample/rxjava3](https://github.com/hantsy/spring-reactive-sample/blob/master/rxjava3).
+For the complete codes, check [spring-reactive/rxjava2](https://github.com/jwkidd3/spring-reactive/blob/master/rxjava2) and [spring-reactive/rxjava3](https://github.com/jwkidd3/spring-reactive/blob/master/rxjava3).
 
 ## Java 9 Flow API
 
@@ -105,7 +105,7 @@ public class PostController {
 }
 ```
 
-For the complete codes, check [spring-reactive-sample/java9](https://github.com/hantsy/spring-reactive-sample/blob/master/java9).
+For the complete codes, check [spring-reactive/java9](https://github.com/jwkidd3/spring-reactive/blob/master/java9).
 
 ## SmallRye Mutiny 
 
@@ -168,4 +168,4 @@ class PostController {
 }
 ```
 
-For the complete codes, check [spring-reactive-sample/smallrye-mutiny](https://github.com/hantsy/spring-reactive-sample/blob/master/smallrye-mutiny).
+For the complete codes, check [spring-reactive/smallrye-mutiny](https://github.com/jwkidd3/spring-reactive/blob/master/smallrye-mutiny).

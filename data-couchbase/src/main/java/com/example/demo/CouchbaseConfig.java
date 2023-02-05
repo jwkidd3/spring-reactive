@@ -11,7 +11,7 @@ import org.springframework.data.couchbase.config.AbstractCouchbaseConfiguration;
 import org.springframework.data.couchbase.repository.config.EnableReactiveCouchbaseRepositories;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 @Configuration
 @EnableReactiveCouchbaseRepositories(basePackageClasses = {CouchbaseConfig.class})

@@ -125,7 +125,7 @@ class FavoriteController {
 }
 ```
 
-For the complete codes, check [spring-reactive-sample/data-redis](https://github.com/hantsy/spring-reactive-sample/blob/master/data-redis).
+For the complete codes, check [spring-reactive/data-redis](https://github.com/jwkidd3/spring-reactive/blob/master/data-redis).
  
 For Spring Boot applications, the configuration can be simplified. Just add `spring-boot-starter-data-redis-reactive` into the project dependencies.
 
@@ -138,7 +138,7 @@ For Spring Boot applications, the configuration can be simplified. Just add `spr
 
 Spring boot provides auto-configuration for Redis, and registers `ReactiveRedisConnectionFactory` for you automatically.
 
-For the complete codes, check [spring-reactive-sample/boot-data-redis](https://github.com/hantsy/spring-reactive-sample/blob/master/boot-data-redis).
+For the complete codes, check [spring-reactive/boot-data-redis](https://github.com/jwkidd3/spring-reactive/blob/master/boot-data-redis).
 
 
 ## ReactiveRedisTemplate
@@ -236,4 +236,4 @@ class PostController {
 }	
 ```
 
-For the complete codes, check [spring-reactive-sample/data-redis-message](https://github.com/hantsy/spring-reactive-sample/blob/master/data-redis-message).
+For the complete codes, check [spring-reactive/data-redis-message](https://github.com/jwkidd3/spring-reactive/blob/master/data-redis-message).

@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-boot-kotlin</artifactId>
+    <artifactId>spring-reactive-boot-kotlin</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-reactive-sample-boot-kotlin</name>
+    <name>spring-reactive-boot-kotlin</name>
     <description>Spring Boot(with Kotlin)</description>
 
     <parent>

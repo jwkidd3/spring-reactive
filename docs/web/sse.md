@@ -21,7 +21,7 @@ public Flux<Post> sse() {
 
 The above example is emitting a time based event.
 
-Source codes: [spring-reactive-sample/sse](https://github.com/hantsy/spring-reactive-sample/blob/master/sse).  
+Source codes: [spring-reactive/sse](https://github.com/jwkidd3/spring-reactive/blob/master/sse).  
 
 ## Client Side
 
@@ -35,5 +35,5 @@ client.get()
     .bodyToFlux(Message::class.java)
 ```
 
-A more close to the real world example, go to [hantsy/angular-spring-sse-sample/](https://github.com/hantsy/angular-spring-sse-sample/) in which the client is built with Angular and  the server side is a simple Spring Boot application that uses SSE to update the chat messages to client.
+A more close to the real world example, go to [jwkidd3/angular-spring-sse-sample/](https://github.com/jwkidd3/angular-spring-sse-sample/) in which the client is built with Angular and  the server side is a simple Spring Boot application that uses SSE to update the chat messages to client.
 

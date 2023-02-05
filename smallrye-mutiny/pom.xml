@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-mutiny</artifactId>
+    <artifactId>spring-reactive-mutiny</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-reactive-sample-mutiny</name>
+    <name>spring-reactive-mutiny</name>
     <description>Spring Webflux SmallRye Mutiny demo(without Spring Boot)</description>
 
     <parent>

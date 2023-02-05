@@ -15,7 +15,7 @@ import org.springframework.web.server.WebSession;
 /**
  * Copied from Spring Session sample codes.
  * 
- * @author hantsy
+ * @author jwkidd3
  */
 // tag::class[]
 @Controller

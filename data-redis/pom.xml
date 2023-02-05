@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-data-redis</artifactId>
+    <artifactId>spring-reactive-data-redis</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-reactive-sample-data-redis</name>
+    <name>spring-reactive-data-redis</name>
     <description>Spring Webflux Data Redis demo(without Spring Boot)</description>
 
     <parent>

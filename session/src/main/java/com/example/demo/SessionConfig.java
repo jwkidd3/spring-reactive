@@ -14,7 +14,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  *
- * @author hantsy
+ * @author jwkidd3
  */
 @EnableSpringWebSession
 public class SessionConfig {

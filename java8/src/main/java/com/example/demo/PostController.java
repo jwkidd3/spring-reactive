@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  *
- * @author hantsy
+ * @author jwkidd3
  */
 @RestController
 @RequestMapping(value = "/posts")

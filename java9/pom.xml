@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-java9</artifactId>
+    <artifactId>spring-reactive-java9</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-reactive-sample-java9</name>
+    <name>spring-reactive-java9</name>
     <description>Spring Webflux demo with Java 9 Flow.Publisher</description>
 
     <parent>

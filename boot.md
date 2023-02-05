@@ -30,7 +30,7 @@ To kick start a Spring Boot application quickly, the simplest approach is utiliz
 
 Open your favoriate browser, and go to  [Spring Initializer](http://start.spring.io) page.
 
-![Spring Boot initializer](https://github.com/hantsy/gs-boot-reactive/blob/master/start.png)
+![Spring Boot initializer](https://github.com/jwkidd3/gs-boot-reactive/blob/master/start.png)
 
 Fill the form field as you need.
 * You can select Maven or Gradle as build tools.
@@ -208,5 +208,5 @@ These codes are equivalent with the former controller in functionality.
 
 ## Source codes
 
-Check out the [source codes](https://github.com/hantsy/gs-boot-reactive) from my github account.
+Check out the [source codes](https://github.com/jwkidd3/gs-boot-reactive) from my github account.
 

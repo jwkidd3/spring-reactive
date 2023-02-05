@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-boot-mongo</artifactId>
+    <artifactId>spring-reactive-boot-mongo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-reactive-sample-boot-mongo</name>
+    <name>spring-reactive-boot-mongo</name>
     <description>Spring Webflux demo</description>
 
     <parent>

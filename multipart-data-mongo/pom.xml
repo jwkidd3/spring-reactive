@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-multipart-data-mongo</artifactId>
+    <artifactId>spring-reactive-multipart-data-mongo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-reactive-sample-multipart-data-mongo</name>
+    <name>spring-reactive-multipart-data-mongo</name>
     <description>Spring Webflux multipart data mongo demo(Pending, waiting for reactive streams support for GridfsTemplate)</description>
 
     <parent>

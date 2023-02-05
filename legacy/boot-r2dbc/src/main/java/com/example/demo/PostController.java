@@ -11,7 +11,7 @@ import static org.springframework.http.ResponseEntity.*;
 
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 @RestController()
 @RequestMapping(value = "/posts")

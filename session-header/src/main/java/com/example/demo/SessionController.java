@@ -13,7 +13,7 @@ import org.springframework.web.server.WebSession;
 
 /**
  *
- * @author hantsy
+ * @author jwkidd3
  */
 @RestController
 public class SessionController {

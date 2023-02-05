@@ -56,7 +56,7 @@ By default, the `ClientConnector` is `ReactorClientHttpConnector`, there are som
 * [Jetty Reactive HttpClient](https://github.com/jetty-project/jetty-reactive-httpclient)
 * [Apache HttpComponents](https://hc.apache.org/index.html)
 
-For the complete codes, check [spring-reactive-sample/client](https://github.com/hantsy/spring-reactive-sample/blob/master/client).
+For the complete codes, check [spring-reactive/client](https://github.com/jwkidd3/spring-reactive/blob/master/client).
 
 Another client utility class is `WebTestClient`  , which is used for testing purpose.
 

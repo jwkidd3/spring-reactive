@@ -17,7 +17,7 @@ import org.springframework.security.web.server.context.WebSessionServerSecurityC
 
 /**
  *
- * @author hantsy
+ * @author jwkidd3
  */
 @Configuration
 @EnableWebFluxSecurity

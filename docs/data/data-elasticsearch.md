@@ -46,7 +46,7 @@ interface PostRepository extends ReactiveElasticsearchRepository<Post, String> {
 }
 ```
 
-For the complete codes, check [spring-reactive-sample/boot-data-elasticsearch](https://github.com/hantsy/spring-reactive-sample/blob/master/boot-data-elasticsearch).
+For the complete codes, check [spring-reactive/boot-data-elasticsearch](https://github.com/jwkidd3/spring-reactive/blob/master/boot-data-elasticsearch).
 
 Add some sample data via a `CommandLineRunner` bean or a `ApplicationRunner` bean.
 

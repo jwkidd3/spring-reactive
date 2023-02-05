@@ -36,7 +36,7 @@ public class DemoApplication {
 
     @Bean
     public ReactiveAuditorAware<String> auditorAware() {
-        return () -> Mono.just("hantsy");
+        return () -> Mono.just("jwkidd3");
     }
 }
 

@@ -16,7 +16,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 @Component
 @Slf4j

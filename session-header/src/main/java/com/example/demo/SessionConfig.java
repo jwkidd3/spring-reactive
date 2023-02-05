@@ -7,7 +7,7 @@ package com.example.demo;
 
 /**
  *
- * @author hantsy
+ * @author jwkidd3
  */
 import java.util.concurrent.ConcurrentHashMap;
 import org.springframework.context.annotation.Bean;

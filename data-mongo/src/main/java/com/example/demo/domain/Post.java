@@ -15,7 +15,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 /**
  *
- * @author hantsy
+ * @author jwkidd3
  */
 @Data
 @ToString

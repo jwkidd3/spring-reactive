@@ -8,7 +8,7 @@ import org.springframework.test.context.junit.jupiter.web.SpringJUnitWebConfig;
 import org.springframework.test.web.reactive.server.WebTestClient;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 @SpringJUnitWebConfig(classes = {AppConfig.class, WebConfig.class})
 public class ApplicationTests {

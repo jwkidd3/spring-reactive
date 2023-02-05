@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-groovy-dsl</artifactId>
+    <artifactId>spring-reactive-groovy-dsl</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-reactive-sample-groovy-dsl</name>
+    <name>spring-reactive-groovy-dsl</name>
     <description>Demo project written in Groovy DSL configuration</description>
 
     <parent>

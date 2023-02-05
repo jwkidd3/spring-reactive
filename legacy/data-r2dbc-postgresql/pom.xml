@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-data-r2dbc-postgresql</artifactId>
+    <artifactId>spring-reactive-data-r2dbc-postgresql</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-reactive-sample-data-r2dbc-postgresql</name>
+    <name>spring-reactive-data-r2dbc-postgresql</name>
     <description>Spring Webflux Data R2DBC demo(without Spring Boot)</description>
 
     <parent>

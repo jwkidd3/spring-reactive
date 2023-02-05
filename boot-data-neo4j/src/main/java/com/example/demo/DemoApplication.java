@@ -52,7 +52,7 @@ class DataConfig {
 
     @Bean
     public ReactiveAuditorAware<String> reactiveAuditorAware() {
-        return () -> Mono.just("hantsy");
+        return () -> Mono.just("jwkidd3");
     }
 }
 

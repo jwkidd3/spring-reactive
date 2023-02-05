@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-vanilla</artifactId>
+    <artifactId>spring-reactive-vanilla</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-reactive-sample-vanilla</name>
+    <name>spring-reactive-vanilla</name>
     <description>Spring Webflux Reactor Netty demo(without Spring Boot)</description>
 
     <parent>

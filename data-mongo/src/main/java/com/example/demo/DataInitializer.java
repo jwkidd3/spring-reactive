@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 import reactor.core.publisher.Flux;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 @Component
 @Slf4j

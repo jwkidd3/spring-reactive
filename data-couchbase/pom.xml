@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-data-couchbase</artifactId>
+    <artifactId>spring-reactive-data-couchbase</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-reactive-sample-data-couchbase</name>
+    <name>spring-reactive-data-couchbase</name>
     <description>Spring Webflux Data Couchbase demo(without Spring Boot)</description>
 
     <parent>

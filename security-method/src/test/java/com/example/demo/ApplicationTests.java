@@ -22,7 +22,7 @@ import static org.springframework.security.test.web.reactive.server.SecurityMock
 import static org.springframework.security.test.web.reactive.server.SecurityMockServerConfigurers.springSecurity;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 @SpringJUnitConfig(classes = Application.class)
 @ActiveProfiles("test")

@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-security-form</artifactId>
+    <artifactId>spring-reactive-security-form</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-reactive-sample-security-form</name>
+    <name>spring-reactive-security-form</name>
     <description>Spring Webflux Security From Login Demo</description>
 
     <parent>

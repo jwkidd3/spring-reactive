@@ -11,7 +11,7 @@ import org.springframework.web.reactive.socket.WebSocketSession;
 import reactor.core.publisher.Mono;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 public class EchoHandler implements WebSocketHandler {
 

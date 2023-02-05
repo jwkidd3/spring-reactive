@@ -15,7 +15,7 @@ import org.springframework.web.reactive.config.WebFluxConfigurer;
 import org.springframework.web.reactive.result.view.freemarker.FreeMarkerConfigurer;
 /**
  *
- * @author hantsy
+ * @author jwkidd3
  */
 @Configuration
 @EnableWebFlux

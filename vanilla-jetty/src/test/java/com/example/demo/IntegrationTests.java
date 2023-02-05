@@ -13,7 +13,7 @@ import java.time.Duration;
 
 /**
  *
- * @author hantsy
+ * @author jwkidd3
  */
 public class IntegrationTests {
 

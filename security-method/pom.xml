@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-security-method</artifactId>
+    <artifactId>spring-reactive-security-method</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-reactive-sample-security-method</name>
+    <name>spring-reactive-security-method</name>
     <description>Spring Webflux Security Method demo(without Spring Boot)</description>
 
     <parent>

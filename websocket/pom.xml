@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-websocket</artifactId>
+    <artifactId>spring-reactive-websocket</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-reactive-sample-websocket</name>
+    <name>spring-reactive-websocket</name>
     <description>Spring Webflux WebSocket demo(without Spring Boot)</description>
 
     <parent>

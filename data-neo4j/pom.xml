@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-data-neo4j</artifactId>
+    <artifactId>spring-reactive-data-neo4j</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-reactive-sample-data-neo4j</name>
+    <name>spring-reactive-data-neo4j</name>
     <description>Spring data neo4j demo(ReactiveNeo4jOperations)</description>
 
     <properties>

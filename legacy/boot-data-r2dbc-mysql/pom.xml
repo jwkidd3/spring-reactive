@@ -10,9 +10,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-boot-data-r2dbc-mysql</artifactId>
+    <artifactId>spring-reactive-boot-data-r2dbc-mysql</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-reactive-sample-boot-data-r2dbc-mysql</name>
+    <name>spring-reactive-boot-data-r2dbc-mysql</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

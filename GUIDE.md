@@ -19,7 +19,7 @@ The Spring 5 embraces [Reactive Streams](http://www.reactive-streams.org/). For 
 * In Spring Data umbrella projects, a new `ReactiveSortingRepository` interface is added in Spring Data Commons. Redis, Mongo, Cassandra subprojects firstly got reactive supports. Unluckily due to the original JDBC is designated for blocking access, Spring Data JPA can not benefit from this feature. 
 * Spring Session also began to add reactive features, an reactive variant for its `SessionRepository` is included in the latest 2.0.0.M3. 
 
-**NOTE: At the moment I was writing this post, some Spring projects are still under active development, I will update the content and the sample codes against the final release version when they are ready. Please start the [Github sample repository](https://github.com/hantsy/spring-reactive-sample) to get update in future.**
+**NOTE: At the moment I was writing this post, some Spring projects are still under active development, I will update the content and the sample codes against the final release version when they are ready. Please start the [Github sample repository](https://github.com/jwkidd3/spring-reactive) to get update in future.**
 
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -69,7 +69,7 @@ The Spring 5 embraces [Reactive Streams](http://www.reactive-streams.org/). For 
 
 An example exceeds thousands of words. Let's begin to write some codes and enjoy the reactive programming brought by Spring 5.
 
-As an example, I will reuse the same concept in my former [Spring Boot sample codes](https://github.com/hantsy/angularjs-springmvc-sample-boot) which is a simple blog application. 
+As an example, I will reuse the same concept in my former [Spring Boot sample codes](https://github.com/jwkidd3/angularjs-springmvc-sample-boot) which is a simple blog application. 
 
 In the following steps we will start with creating RESTful APIs for `Post`. 
 
@@ -118,11 +118,11 @@ The final pom.xml looks like:
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-vanilla</artifactId>
+    <artifactId>spring-reactive-vanilla</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-reactive-sample-vanilla</name>
+    <name>spring-reactive-vanilla</name>
     <description>Spring Webflux demo(without Spring Boot)</description>
 
     <parent>
@@ -357,7 +357,7 @@ According to the official documention, in [WebFlux framework](http://docs.spring
 
 >WebFlux can run on Servlet containers with support for the Servlet 3.1 Non-Blocking IO API as well as on other async runtimes such as Netty and Undertow. 
 
-![Spring Webflux](https://github.com/hantsy/spring-reactive-sample/blob/master/webflux.png)
+![Spring Webflux](https://github.com/jwkidd3/spring-reactive/blob/master/webflux.png)
 
 
 #### Apache Tomcat
@@ -440,14 +440,14 @@ mvn package
 When it is done, switch to the *target* folder, besides the general jar, you will find an extra fat jar was generated, which filename is ended with **jar-with-dependencies.jar**.
 
 ```
-spring-reactive-sample-vanilla-0.0.1-SNAPSHOT-jar-with-dependencies.jar
-spring-reactive-sample-vanilla-0.0.1-SNAPSHOT.jar
+spring-reactive-vanilla-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+spring-reactive-vanilla-0.0.1-SNAPSHOT.jar
 ```
 
 Run the following command to run this application. 
 
 ```
-java -jar target/spring-reactive-sample-vanilla-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+java -jar target/spring-reactive-vanilla-0.0.1-SNAPSHOT-jar-with-dependencies.jar
 ```
 
 When it is started, try to fetch posts.
@@ -610,7 +610,7 @@ Currently Spring Boot 2.0 is still in active development. The final Spring Boot 
 
 Open browser and navigate to [http://start.spring.io](http://start.spring.io). 
 
-![Spring Boot initializer](https://github.com/hantsy/spring-reactive-sample/blob/master/init.png)
+![Spring Boot initializer](https://github.com/jwkidd3/spring-reactive/blob/master/init.png)
 
 In the Spring Boot Initializer page. 
 
@@ -1793,11 +1793,11 @@ fun router() = router {
 }
 ```
 
-Please check out the [Source codes](https://github.com/hantsy/spring-reactive-sample) for the complete Kotlin application.
+Please check out the [Source codes](https://github.com/jwkidd3/spring-reactive) for the complete Kotlin application.
 
 ## Sample codes
 
-The following table lits all sample codes related to this post. The  [sample  codes ](https://github.com/hantsy/spring-reactive-sample) of this post is hosted on my Github account, welcome to star and fork it.
+The following table lits all sample codes related to this post. The  [sample  codes ](https://github.com/jwkidd3/spring-reactive) of this post is hosted on my Github account, welcome to star and fork it.
 
 | name                     | description                              |
 | ------------------------ | ---------------------------------------- |
@@ -1854,7 +1854,7 @@ The following table lits all sample codes related to this post. The  [sample  co
 * [Reactor by Example](https://www.infoq.com/articles/reactor-by-example)
 * [New in Spring 5: Functional Web Framework](https://spring.io/blog/2016/09/22/new-in-spring-5-functional-web-framework)
 * [Spring WebFlux: First Steps ](https://dzone.com/articles/spring-webflux-first-steps)
-* [Spring-Reactive Example REST Application ](https://dzone.com/articles/spring-reactive-samples)
+* [Spring-Reactive Example REST Application ](https://dzone.com/articles/spring-reactives)
 * [Spring 5 WebFlux and JDBC: To Block or Not to Block ](https://dzone.com/articles/spring-5-webflux-and-jdbc-to-block-or-not-to-block)
 * [Reactive Spring 5 and Application Design Impact](https://dzone.com/articles/reactive-spring-5-and-application-design-impact)
 * [From Java To Kotlin - Your Cheat Sheet For Java To Kotlin ](https://github.com/MindorksOpenSource/from-java-to-kotlin)

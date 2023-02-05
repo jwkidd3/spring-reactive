@@ -99,7 +99,7 @@ Next change the former `PostRepository` to the following:
 interface PostRepository extends ReactiveCassandraRepository<Post, String>{}
 ```
 
-For the complete codes, check [spring-reactive-sample/data-cassandra](https://github.com/hantsy/spring-reactive-sample/blob/master/data-cassandra).
+For the complete codes, check [spring-reactive/data-cassandra](https://github.com/jwkidd3/spring-reactive/blob/master/data-cassandra).
 
 Alternatively, for Spring Boot applications, just need to add `spring-boot-starter-data-cassandra-reactive` into your project dependencies.
 
@@ -112,7 +112,7 @@ Alternatively, for Spring Boot applications, just need to add `spring-boot-start
 
 No need extra configuration, Spring Boot will autoconfigure Cassandra and registers all essential beans for you.
 
-For the complete codes, check [spring-reactive-sample/boot-data-cassandra](https://github.com/hantsy/spring-reactive-sample/blob/master/boot-data-cassandra).
+For the complete codes, check [spring-reactive/boot-data-cassandra](https://github.com/jwkidd3/spring-reactive/blob/master/boot-data-cassandra).
 
 Add some sample data via a `CommandLineRunner` bean or a `ApplicationRunner` bean.
 

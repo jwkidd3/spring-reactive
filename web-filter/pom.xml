@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example</groupId>
-  <artifactId>spring-reactive-sample-web-filter</artifactId>
+  <artifactId>spring-reactive-web-filter</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>spring-reactive-sample-web-filter</name>
+  <name>spring-reactive-web-filter</name>
   <description>Spring Webflux Reactor Netty demo(without Spring Boot)</description>
 
   <parent>

@@ -10,7 +10,7 @@ import static org.springframework.http.MediaType.APPLICATION_JSON;
 
 /**
  *
- * @author hantsy
+ * @author jwkidd3
  */
 @SpringJUnitConfig(classes = Application.class)
 public class PostControllerTest {

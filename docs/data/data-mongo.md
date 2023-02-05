@@ -128,7 +128,7 @@ When the Mongo service is started, it is ready for bootstrapping the application
 mvn spring-boot:run
 ```
 
- For the complete codes, check [spring-reactive-sample/data-mongo](https://github.com/hantsy/spring-reactive-sample/blob/master/data-mongo).
+ For the complete codes, check [spring-reactive/data-mongo](https://github.com/jwkidd3/spring-reactive/blob/master/data-mongo).
 
 If you are using Spring Boot, the configuration can be simplified. Just need to add `spring-boot-starter-data-mongodb-reactive` into the project dependencies.
 
@@ -141,7 +141,7 @@ If you are using Spring Boot, the configuration can be simplified. Just need to 
 
 No need extra configuration class, Spring Boot will enable reactive support for MongoDB in this project. `ReactiveMongoTemplate` and `ReactiveMongoRepository` will be configured automatically.
 
- For the complete codes, check [spring-reactive-sample/boot-data-mongo](https://github.com/hantsy/spring-reactive-sample/blob/master/boot-data-mongo).
+ For the complete codes, check [spring-reactive/boot-data-mongo](https://github.com/jwkidd3/spring-reactive/blob/master/boot-data-mongo).
 
 Add some sample data into MongoDB when starting the application.
 
@@ -371,7 +371,7 @@ To fill the auditor automatically, create a `ReactiveAuditorAware` bean.
 ```java
 @Bean
 ReactiveAuditorAware<String> auditorAware() {
-    return () -> Mono.just("hantsy");
+    return () -> Mono.just("jwkidd3");
 }
 ```
 
@@ -389,7 +389,7 @@ class Post {
 }        
 ```
 
- For the complete codes, check [spring-reactive-sample/boot-data-mongo](https://github.com/hantsy/spring-reactive-sample/blob/master/boot-data-mongo).
+ For the complete codes, check [spring-reactive/boot-data-mongo](https://github.com/jwkidd3/spring-reactive/blob/master/boot-data-mongo).
 
 ## QueryDSL 
 
@@ -445,7 +445,7 @@ An example to use QueryDSL API  in your codes.
 this.postRepository.findAll(QPost.post.title.containsIgnoreCase("my"))
 ```
 
- For the complete codes, check [spring-reactive-sample/boot-data-mongo-querydsl](https://github.com/hantsy/spring-reactive-sample/blob/master/boot-data-mongo-querydsl).
+ For the complete codes, check [spring-reactive/boot-data-mongo-querydsl](https://github.com/jwkidd3/spring-reactive/blob/master/boot-data-mongo-querydsl).
 
 ## Tailable Query
 
@@ -458,13 +458,13 @@ Flux<Message> readByAll()
 
 The query stream can be subscribed by a SSE endpoint, a WebSocket endpoint or a  RSocket message channel.
 
-There is a simple example to expose data via SSE endpoint, check [spring-reactive-sample/boot-data-mongo-tailable](https://github.com/hantsy/spring-reactive-sample/blob/master/boot-data-mongo-tailable).
+There is a simple example to expose data via SSE endpoint, check [spring-reactive/boot-data-mongo-tailable](https://github.com/jwkidd3/spring-reactive/blob/master/boot-data-mongo-tailable).
 
 Please check the following more comprehensive examples, all provide Mongo `tailable` documents as backend message stream.
 
-* [Angular and Websocket Sample](https://github.com/hantsy/angular-spring-websocket-sample)
-* [Angular and Server Sent Event  Sample](https://github.com/hantsy/angular-spring-sse-sample)
-* [Angular and RSocket  Sample](https://github.com/hantsy/angular-spring-rsocket-sample)
+* [Angular and Websocket Sample](https://github.com/jwkidd3/angular-spring-websocket-sample)
+* [Angular and Server Sent Event  Sample](https://github.com/jwkidd3/angular-spring-sse-sample)
+* [Angular and RSocket  Sample](https://github.com/jwkidd3/angular-spring-rsocket-sample)
 
 
 

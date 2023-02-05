@@ -200,7 +200,7 @@ class DataInitializer implements CommandLineRunner {
 
 Before starting this application, make sure there is a running Neo4j server.
 
-There is a *docker-compose.yaml* file in the root folder of the [spring-reactive-sample](https://github.com/hantsy/spring-reactive-sample) repository which is prepared for bootstrapping dependent servers. 
+There is a *docker-compose.yaml* file in the root folder of the [spring-reactive](https://github.com/jwkidd3/spring-reactive) repository which is prepared for bootstrapping dependent servers. 
 
 Simply, run the following command to serve a Neo4j instance  in the Docker container. 
 
@@ -228,10 +228,10 @@ After it run successfully, try to use `curl` command to verify the exposed APIs.
 
 ```bash
 # curl http://localhost:8080/posts
-[{"id":0,"title":"Post two","content":"The content of Post two","createdDate":"2020-11-04T10:35:14.1619567","updatedDate":"2020-11-04T10:35:14.1619567","createdBy":"hantsy","updatedBy":"hantsy"},{"id":1,"title":"Post one","content":"The content of Post one","createdDate":"2020-11-04T10:35:14.1481498","updatedDate":"2020-11-04T10:35:14.1481498","createdBy":"hantsy","updatedBy":"hantsy"}]
+[{"id":0,"title":"Post two","content":"The content of Post two","createdDate":"2020-11-04T10:35:14.1619567","updatedDate":"2020-11-04T10:35:14.1619567","createdBy":"jwkidd3","updatedBy":"jwkidd3"},{"id":1,"title":"Post one","content":"The content of Post one","createdDate":"2020-11-04T10:35:14.1481498","updatedDate":"2020-11-04T10:35:14.1481498","createdBy":"jwkidd3","updatedBy":"jwkidd3"}]
 ```
 
-For the complete codes, check [spring-reactive-sample/boot-data-neo4j](https://github.com/hantsy/spring-reactive-sample/blob/master/boot-data-neo4j).
+For the complete codes, check [spring-reactive/boot-data-neo4j](https://github.com/jwkidd3/spring-reactive/blob/master/boot-data-neo4j).
 
 ## Customizing Queries
 
@@ -462,7 +462,7 @@ public class PostRepository {
 
 ```
 
-For the complete codes, check [spring-reactive-sample/boot-neo4j-cypher](https://github.com/hantsy/spring-reactive-sample/blob/master/boot-neo4j-cypher).
+For the complete codes, check [spring-reactive/boot-neo4j-cypher](https://github.com/jwkidd3/spring-reactive/blob/master/boot-neo4j-cypher).
 
 
 ## ReactiveNeo4jOperations
@@ -530,7 +530,7 @@ public class PostRepository  {
 
 It it similar to the ReactiveNeo4jClient, but more simple.  Have a look at the `findAll`, the literal queries are replaced by Java Query Criteria APIs.
 
-For the complete codes, check [spring-reactive-sample/boot-neo4j](https://github.com/hantsy/spring-reactive-sample/blob/master/boot-neo4j).
+For the complete codes, check [spring-reactive/boot-neo4j](https://github.com/jwkidd3/spring-reactive/blob/master/boot-neo4j).
 
 ## Data Auditing Support
 
@@ -577,7 +577,7 @@ Add a `ReactiveAuditorAware` bean to serve the auditor in the entity when saving
 ```java
 @Bean
 public ReactiveAuditorAware<String> reactiveAuditorAware() {
-    return () -> Mono.just("hantsy");
+    return () -> Mono.just("jwkidd3");
 }
 ```
 
@@ -598,20 +598,20 @@ class DataConfig {
 Run the application, you will see the following logging info printed by the `DataInitializer` bean.
 
  ```bash
-2020-11-08 10:22:26.661  INFO 16856 --- [o4jDriverIO-2-2] [Initializing data]                      : onNext(Post(id=2, title=Post one, content=The content of Post one, createdDate=2020-11-08T10:22:24.554356100, updatedDate=2020-11-08T10:22:24.554356100, createdBy=hantsy, updatedBy=hantsy))
-2020-11-08 10:22:26.661  INFO 16856 --- [o4jDriverIO-2-2] com.example.demo.DataInitializer         : found post: Post(id=2, title=Post one, content=The content of Post one, createdDate=2020-11-08T10:22:24.554356100, updatedDate=2020-11-08T10:22:24.554356100, createdBy=hantsy, updatedBy=hantsy)
-2020-11-08 10:22:26.661  INFO 16856 --- [o4jDriverIO-2-2] [Initializing data]                      : onNext(Post(id=3, title=Post two, content=The content of Post two, createdDate=2020-11-08T10:22:24.562356700, updatedDate=2020-11-08T10:22:24.562356700, createdBy=hantsy, updatedBy=hantsy))
-2020-11-08 10:22:26.661  INFO 16856 --- [o4jDriverIO-2-2] com.example.demo.DataInitializer         : found post: Post(id=3, title=Post two, content=The content of Post two, createdDate=2020-11-08T10:22:24.562356700, updatedDate=2020-11-08T10:22:24.562356700, createdBy=hantsy, updatedBy=hantsy)
+2020-11-08 10:22:26.661  INFO 16856 --- [o4jDriverIO-2-2] [Initializing data]                      : onNext(Post(id=2, title=Post one, content=The content of Post one, createdDate=2020-11-08T10:22:24.554356100, updatedDate=2020-11-08T10:22:24.554356100, createdBy=jwkidd3, updatedBy=jwkidd3))
+2020-11-08 10:22:26.661  INFO 16856 --- [o4jDriverIO-2-2] com.example.demo.DataInitializer         : found post: Post(id=2, title=Post one, content=The content of Post one, createdDate=2020-11-08T10:22:24.554356100, updatedDate=2020-11-08T10:22:24.554356100, createdBy=jwkidd3, updatedBy=jwkidd3)
+2020-11-08 10:22:26.661  INFO 16856 --- [o4jDriverIO-2-2] [Initializing data]                      : onNext(Post(id=3, title=Post two, content=The content of Post two, createdDate=2020-11-08T10:22:24.562356700, updatedDate=2020-11-08T10:22:24.562356700, createdBy=jwkidd3, updatedBy=jwkidd3))
+2020-11-08 10:22:26.661  INFO 16856 --- [o4jDriverIO-2-2] com.example.demo.DataInitializer         : found post: Post(id=3, title=Post two, content=The content of Post two, createdDate=2020-11-08T10:22:24.562356700, updatedDate=2020-11-08T10:22:24.562356700, createdBy=jwkidd3, updatedBy=jwkidd3)
  ```
 
 You can also verify it via `curl` .
 
 ```bash
 > curl http://localhost:8080/posts
-[{"id":2,"title":"Post one","content":"The content of Post one","createdDate":"2020-11-08T10:22:24.5543561","updatedDate":"2020-11-08T10:22:24.5543561","createdBy":"hantsy","updatedBy":"hantsy"},{"id":3,"title":"Post two","content":"The content of Post two","createdDate":"2020-11-08T10:22:24.5623567","updatedDate":"2020-11-08T10:22:24.5623567","createdBy":"hantsy","updatedBy":"hantsy"}]
+[{"id":2,"title":"Post one","content":"The content of Post one","createdDate":"2020-11-08T10:22:24.5543561","updatedDate":"2020-11-08T10:22:24.5543561","createdBy":"jwkidd3","updatedBy":"jwkidd3"},{"id":3,"title":"Post two","content":"The content of Post two","createdDate":"2020-11-08T10:22:24.5623567","updatedDate":"2020-11-08T10:22:24.5623567","createdBy":"jwkidd3","updatedBy":"jwkidd3"}]
 ```
 
-For the complete codes, check [spring-reactive-sample/boot-data-neo4j](https://github.com/hantsy/spring-reactive-sample/blob/master/boot-data-neo4j).
+For the complete codes, check [spring-reactive/boot-data-neo4j](https://github.com/jwkidd3/spring-reactive/blob/master/boot-data-neo4j).
 
 
 ## Testing
@@ -839,7 +839,7 @@ public class PostRepositoryTest {
 
 In the above, we use a `ContextConfiguration` to apply the context initializers. In the real world application, you can extract `TestContainerInitializer` to a standalone class, and thus it is easy to reuse in any tests that requires a running Neo4j server instance.
 
-For the complete codes, check [spring-reactive-sample/boot-data-neo4j](https://github.com/hantsy/spring-reactive-sample/blob/master/boot-data-neo4j).
+For the complete codes, check [spring-reactive/boot-data-neo4j](https://github.com/jwkidd3/spring-reactive/blob/master/boot-data-neo4j).
 
 
 

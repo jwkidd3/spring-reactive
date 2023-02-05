@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-data-mongo-pageable</artifactId>
+    <artifactId>spring-reactive-data-mongo-pageable</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-reactive-sample-data-mongo-pageable</name>
+    <name>spring-reactive-data-mongo-pageable</name>
     <description>Spring Webflux Data Mongo demo(without Spring Boot)</description>
 
     <parent>

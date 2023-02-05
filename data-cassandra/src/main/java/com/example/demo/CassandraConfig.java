@@ -18,7 +18,7 @@ import org.springframework.data.cassandra.repository.config.EnableReactiveCassan
 
 /**
  *
- * @author hantsy
+ * @author jwkidd3
  */
 @Configuration
 @EnableReactiveCassandraRepositories(basePackageClasses = {CassandraConfig.class})

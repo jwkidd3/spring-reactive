@@ -17,7 +17,7 @@ import java.net.URISyntaxException;
 import java.time.Duration;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 @Slf4j
 public class WebSocketDemoClient {

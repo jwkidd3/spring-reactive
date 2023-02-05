@@ -16,7 +16,7 @@ import org.springframework.util.MultiValueMap;
 import org.springframework.web.util.UriComponentsBuilder;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 @Configuration
 @EnableIntegration

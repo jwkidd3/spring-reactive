@@ -39,4 +39,4 @@ public class SecurityWebFilter implements WebFilter{
 > 
 
 
-For the complete codes, check [spring-reactive-sample/web-filter](https://github.com/hantsy/spring-reactive-sample/blob/master/web-filter).
+For the complete codes, check [spring-reactive/web-filter](https://github.com/jwkidd3/spring-reactive/blob/master/web-filter).

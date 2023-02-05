@@ -14,7 +14,7 @@ import reactor.core.publisher.Flux;
 import java.util.concurrent.Flow;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 @RestController
 @RequestMapping(value = "/posts")

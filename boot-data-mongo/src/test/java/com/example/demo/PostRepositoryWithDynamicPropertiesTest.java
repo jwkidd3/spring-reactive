@@ -75,7 +75,7 @@ public class PostRepositoryWithDynamicPropertiesTest {
                 .as(StepVerifier::create)
                 .consumeNextWith(p -> {
                     assertThat(p.getTitle()).isEqualTo("another post title");
-                    assertThat(p.getCreatedBy()).isEqualTo("hantsy");
+                    assertThat(p.getCreatedBy()).isEqualTo("jwkidd3");
                     assertThat(p.getCreatedAt()).isNotNull();
                 })
                 .consumeNextWith(p -> assertThat(p.getTitle()).isEqualTo("my test title"))

@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.UUID;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 @RestController
 @RequestMapping(value = "/posts")

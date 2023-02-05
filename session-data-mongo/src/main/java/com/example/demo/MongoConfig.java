@@ -13,7 +13,7 @@ import org.springframework.data.mongodb.config.AbstractReactiveMongoConfiguratio
 
 /**
  *
- * @author hantsy
+ * @author jwkidd3
  */
 @Configuration
 //@EnableReactiveMongoRepositories(basePackageClasses = {MongoConfig.class})

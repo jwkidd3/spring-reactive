@@ -14,7 +14,7 @@ import lombok.ToString;
 
 /**
  *
- * @author hantsy
+ * @author jwkidd3
  */
 
 @Data

@@ -53,7 +53,7 @@ public interface HandlerFunction<T extends ServerResponse> {
 }
 ```
 
-For the complete codes,  check [spring-reactive-sample/boot-start](https://github.com/hantsy/spring-reactive-sample/blob/master/boot-start) and  [spring-reactive-sample/boot-start-routes](https://github.com/hantsy/spring-reactive-sample/blob/master/boot-start-routes).
+For the complete codes,  check [spring-reactive/boot-start](https://github.com/jwkidd3/spring-reactive/blob/master/boot-start) and  [spring-reactive/boot-start-routes](https://github.com/jwkidd3/spring-reactive/blob/master/boot-start-routes).
 
 You can extract the handler codes into a new class.
 
@@ -125,6 +125,6 @@ class PostHandler {
 }
 ```
 
-For the complete codes,  check  [spring-reactive-sample/boot-routes](https://github.com/hantsy/spring-reactive-sample/blob/master/boot-routes).
+For the complete codes,  check  [spring-reactive/boot-routes](https://github.com/jwkidd3/spring-reactive/blob/master/boot-routes).
 
-> NOTE: The `RouterFunction` is ported back to Servlet stack since 5.2, check my example [hantsy/spring-webmvc-functional-sample](https://github.com/hantsy/spring-webmvc-functional-sample).
+> NOTE: The `RouterFunction` is ported back to Servlet stack since 5.2, check my example [jwkidd3/spring-webmvc-functional-sample](https://github.com/jwkidd3/spring-webmvc-functional-sample).

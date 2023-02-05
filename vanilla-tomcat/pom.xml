@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-vanilla-tomcat</artifactId>
+    <artifactId>spring-reactive-vanilla-tomcat</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-reactive-sample-vanilla-tomcat</name>
+    <name>spring-reactive-vanilla-tomcat</name>
     <description>Spring Webflux Tomcat demo(without Spring Boot)</description>
 
     <parent>

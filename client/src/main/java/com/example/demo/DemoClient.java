@@ -14,7 +14,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 import java.io.IOException;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 public class DemoClient {
 

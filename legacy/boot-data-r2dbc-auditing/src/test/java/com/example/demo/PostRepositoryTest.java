@@ -48,8 +48,8 @@ public class PostRepositoryTest {
                             assertEquals("testtitle", p.getTitle());
                             assertNotNull(p.getCreatedAt());
                             assertNotNull(p.getUpdatedAt());
-                            assertThat(p.getCreatedBy()).isEqualTo("hantsy");
-                            assertThat(p.getUpdatedBy()).isEqualTo("hantsy");
+                            assertThat(p.getCreatedBy()).isEqualTo("jwkidd3");
+                            assertThat(p.getUpdatedBy()).isEqualTo("jwkidd3");
                         }
                 )
                 .verifyComplete();

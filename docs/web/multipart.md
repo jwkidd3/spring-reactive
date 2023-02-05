@@ -23,7 +23,7 @@ Mono<String> requestBodyMap(
 }
 ```
 
-For the complete codes,  check  [spring-reactive-sample/multipart](https://github.com/hantsy/spring-reactive-sample/blob/master/multipart).
+For the complete codes,  check  [spring-reactive/multipart](https://github.com/jwkidd3/spring-reactive/blob/master/multipart).
 
 Now let's go to a more complex example *File upload and download* - which is more close to the real world application.  
 
@@ -119,5 +119,5 @@ Now let's go to a more complex example *File upload and download* - which is mor
    ```
    
 
-For the complete codes, check [spring-reactive-sample/multipart-data-mongo](https://github.com/hantsy/spring-reactive-sample/blob/master/multipart-data-mongo) and [spring-reactive-sample/boot-data-mongo-gridfs](https://github.com/hantsy/spring-reactive-sample/blob/master/boot-data-mongo-gridfs).  
+For the complete codes, check [spring-reactive/multipart-data-mongo](https://github.com/jwkidd3/spring-reactive/blob/master/multipart-data-mongo) and [spring-reactive/boot-data-mongo-gridfs](https://github.com/jwkidd3/spring-reactive/blob/master/boot-data-mongo-gridfs).  
 

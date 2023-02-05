@@ -21,7 +21,7 @@ import org.springframework.security.web.server.authorization.AuthorizationContex
 import reactor.core.publisher.Mono;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 @Configuration
 @EnableWebFluxSecurity

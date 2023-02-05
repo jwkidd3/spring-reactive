@@ -16,7 +16,7 @@ import reactor.core.publisher.Mono;
 import reactor.util.function.Tuple2;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 @RestController
 @RequestMapping(value = "/posts")

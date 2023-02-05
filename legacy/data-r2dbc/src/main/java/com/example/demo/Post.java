@@ -16,7 +16,7 @@ import org.springframework.data.relational.core.mapping.Table;
 
 /**
  *
- * @author hantsy
+ * @author jwkidd3
  */
 @Data
 @ToString

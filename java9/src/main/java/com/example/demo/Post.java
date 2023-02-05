@@ -7,7 +7,7 @@ package com.example.demo;
 
 /**
  *
- * @author hantsy
+ * @author jwkidd3
  */
 //@Data
 //@ToString

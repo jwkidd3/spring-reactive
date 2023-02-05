@@ -12,7 +12,7 @@ import org.springframework.scheduling.annotation.Async;
 
 /**
  *
- * @author hantsy
+ * @author jwkidd3
  */
 public interface PostRepository extends JpaRepository<Post, Long> {
 

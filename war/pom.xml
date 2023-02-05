@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-war</artifactId>
+    <artifactId>spring-reactive-war</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>spring-reactive-sample-war</name>
+    <name>spring-reactive-war</name>
     <description>Spring Webflux demo(without Spring Boot, and packaged as war)</description>
 
     <parent>

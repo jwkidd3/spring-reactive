@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-boot-neo4j-cypher</artifactId>
+    <artifactId>spring-reactive-boot-neo4j-cypher</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-reactive-sample-boot-neo4j-cypher</name>
+    <name>spring-reactive-boot-neo4j-cypher</name>
     <description>Spring data neo4j using cypher query</description>
 
     <properties>

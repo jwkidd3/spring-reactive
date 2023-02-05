@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-rxjava-jdbc</artifactId>
+    <artifactId>spring-reactive-rxjava-jdbc</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-reactive-sample-rxjava-jdbc</name>
+    <name>spring-reactive-rxjava-jdbc</name>
     <description>Spring Webflux RxJava JDBC demo(without Spring Boot)</description>
 
     <parent>

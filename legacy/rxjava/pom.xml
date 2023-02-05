@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-rxjava</artifactId>
+    <artifactId>spring-reactive-rxjava</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-reactive-sample-rxjava</name>
+    <name>spring-reactive-rxjava</name>
     <description>Spring Webflux RxJava demo(without Spring Boot)</description>
 
     <parent>

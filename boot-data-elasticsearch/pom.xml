@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>spring-reactive-sample-boot-data-elasticsearch</artifactId>
+    <artifactId>spring-reactive-boot-data-elasticsearch</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-reactive-sample-boot-data-elasticsearch</name>
+    <name>spring-reactive-boot-data-elasticsearch</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

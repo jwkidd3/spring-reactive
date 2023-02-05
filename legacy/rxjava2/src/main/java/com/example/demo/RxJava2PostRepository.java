@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
 
 /**
  *
- * @author hantsy
+ * @author jwkidd3
  */
 @Component
 class RxJava2PostRepository {

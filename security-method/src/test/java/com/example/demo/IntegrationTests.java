@@ -23,7 +23,7 @@ import java.util.function.Consumer;
 import static org.springframework.web.reactive.function.client.ExchangeFilterFunctions.basicAuthentication;
 
 /**
- * @author hantsy
+ * @author jwkidd3
  */
 @SpringJUnitConfig(classes = Application.class)
 public class IntegrationTests {

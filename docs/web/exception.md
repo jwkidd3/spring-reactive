@@ -69,7 +69,7 @@ public WebExceptionHandler exceptionHandler() {
 
 > NOTE:  `WebExceptionHandler` is a low-level API, also works well for the exception handling  in the former controller case.
 
-For the complete codes,  check  [spring-reactive-sample/exception-handler](https://github.com/hantsy/spring-reactive-sample/blob/master/exception-handler) and [spring-reactive-sample/boot-exception-handler](https://github.com/hantsy/spring-reactive-sample/blob/master/boot-exception-handler) .
+For the complete codes,  check  [spring-reactive/exception-handler](https://github.com/jwkidd3/spring-reactive/blob/master/exception-handler) and [spring-reactive/boot-exception-handler](https://github.com/jwkidd3/spring-reactive/blob/master/boot-exception-handler) .
 
 
 
