@@ -32,6 +32,6 @@ If my work is helpful, please help me to spread it out to your circles or [buy m
 
 ## About Me
 
-I am an impendent freelancer from China with about 20 years of software engineering experience. If you need some development and technical consulting service, please drop me an email, my email address is jwkidd3@gmail.com.
+I am an impendent freelancer from the US with about 20 years of software engineering experience. If you need some development and technical consulting service, please drop me an email, my email address is jwkidd3@gmail.com.
 
 Enjoy reading!
