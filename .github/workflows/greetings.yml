@@ -3,11 +3,6 @@ name: Greetings
 on: [pull_request, issues]
 
 jobs:
-  permissions:
-    id-token: write
-    contents: read
-    issues: write
-    pull-requests: write
   greeting:
     runs-on: ubuntu-latest
     steps:
