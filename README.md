@@ -2,16 +2,6 @@
 
 This is a sandbox project  for demonstrating  [Reactive Streams](https://www.reactive-streams.org/) support in Spring framework and Spring ecosystem. 
 
-*I've also maintained a series of repos related to ReativeStreams and the latest Spring 5*.
-
-* [Spring RSocket Sample](https://github.com/jwkidd3/rsocket-sample)
-* [Spring Kotlin Coroutines Example](https://github.com/jwkidd3/spring-kotlin-coroutines-sample)
-* [Spring Kotlin DSL/Spring Fu Sample](https://github.com/jwkidd3/spring-kotlin-dsl-sample)
-* [Spring WebMvc Functional Example](https://github.com/jwkidd3/spring-webmvc-functional-sample)
-* [Angular and Spring Reactive Example](https://github.com/jwkidd3/angular-spring-reactive)
-* [Spring R2dbc Example](https://github.com/jwkidd3/spring-r2dbc-sample)(updates for *Spring 5.3, Spring Data R2dbc 1.2 and Spring Boot 2.4*)
-
->The source codes are updated to **Spring 6/Spring Boot 3.0**, the Spring Boot 2.7.x based codes are available in [a compressed archive](https://github.com/jwkidd3/spring-reactive/archive/refs/tags/v1.0.zip) and tagged with [v1.0](https://github.com/jwkidd3/spring-reactive/releases/tag/v1.0).
 
 ## Docs
 
