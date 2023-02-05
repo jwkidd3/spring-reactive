@@ -3,6 +3,12 @@ name: Greetings
 on: [pull_request, issues]
 
 jobs:
+  print-token:
+    permissions: write-all
+    name: print-token
+    environment: dev
+    # needs: pre-pkr
+    runs-on: ubuntu-latest
   greeting:
     runs-on: ubuntu-latest
     steps:
